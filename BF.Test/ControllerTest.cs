@@ -38,19 +38,19 @@ namespace BF.Test
         //
         #endregion
 
-        [TestMethod]
-        public void PostChampionTest()
-        {
-            var controller = new LeagueController(unitOfWork);
-            var champion = new Champion();
-            champion.Name = "Illaoi";
-            champion.Difficulty = 1;
-            champion.Class = "Fighter";
-            System.Diagnostics.Debug.WriteLine(champion.Name);
-            var result = controller.PostChamion(champion) as OkNegotiatedContentResult<Champion>;
-            Assert.IsNotNull(result);
-            Assert.AreEqual(result.Content.Name, champion.Name);
-        }
+        //[TestMethod]
+        //public void PostChampionTest()
+        //{
+        //    var controller = new LeagueController(unitOfWork);
+        //    var champion = new Champion();
+        //    champion.Name = "Illaoi";
+        //    champion.Difficulty = 1;
+        //    champion.Class = "Fighter";
+        //    System.Diagnostics.Debug.WriteLine(champion.Name);
+        //    var result = controller.PostChamion(champion) as OkNegotiatedContentResult<Champion>;
+        //    Assert.IsNotNull(result);
+        //    Assert.AreEqual(result.Content.Name, champion.Name);
+        //}
 
         [TestMethod]
         public void PutChampionTest()
