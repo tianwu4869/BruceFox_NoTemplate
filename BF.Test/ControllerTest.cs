@@ -16,9 +16,9 @@ namespace BF.Test
         {
             var controller = new LeagueController(new UnitOfWork(new BruceFoxContext()));
             var champion = new Champion();
-            champion.Name = "Leona";
+            champion.Name = "Illaoi";
             champion.Difficulty = 1;
-            champion.Class = "Tank";
+            champion.Class = "Fighter";
             System.Diagnostics.Debug.WriteLine(champion.Name);
             var result = controller.PostChamion(champion) as OkNegotiatedContentResult<Champion>;
             Assert.IsNotNull(result);
