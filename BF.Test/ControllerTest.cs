@@ -11,10 +11,37 @@ namespace BF.Test
     [TestClass]
     public class ControllerTest
     {
+        private IUnitOfWork unitOfWork;
+
+        #region Additional test attributes
+        //
+        // You can use the following additional attributes as you write your tests:
+        //
+        // Use ClassInitialize to run code before running the first test in the class
+        // [ClassInitialize()]
+        // public static void MyClassInitialize(TestContext testContext) { }
+        //
+        // Use ClassCleanup to run code after all tests in a class have run
+        // [ClassCleanup()]
+        // public static void MyClassCleanup() { }
+        //
+        // Use TestInitialize to run code before running each test 
+        [TestInitialize()]
+        public void MyTestInitialize()
+        {
+            unitOfWork = new UnitOfWork(new BruceFoxContext());
+        }
+        
+        // Use TestCleanup to run code after each test has run
+        // [TestCleanup()]
+        // public void MyTestCleanup() { }
+        //
+        #endregion
+
         [TestMethod]
         public void PostChampionTest()
         {
-            var controller = new LeagueController(new UnitOfWork(new BruceFoxContext()));
+            var controller = new LeagueController(unitOfWork);
             var champion = new Champion();
             champion.Name = "Illaoi";
             champion.Difficulty = 1;
@@ -28,7 +55,7 @@ namespace BF.Test
         [TestMethod]
         public void PutChampionTest()
         {
-            var controller = new LeagueController(new UnitOfWork(new BruceFoxContext()));
+            var controller = new LeagueController(unitOfWork);
             var champion = new Champion();
             champion.ID = 2;
             champion.Name = "Morgana";
