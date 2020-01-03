@@ -11,33 +11,33 @@ namespace BF.Test
     [TestClass]
     public class ControllerTests
     {
-        [TestMethod]
-        public void PostChampionTest()
-        {
-            //var controller = new LeagueController(new UnitOfWork(new BruceFoxContext()));
-            //var champion = new Champion();
-            //champion.Name = "Leona";
-            //champion.Difficulty = 1;
-            //champion.Class = "Tank";
-            //System.Diagnostics.Debug.WriteLine(champion.Name);
-            //var result = controller.PostChamion(champion) as OkNegotiatedContentResult<Champion>;
-            //Assert.IsNotNull(result);
-            //Assert.AreEqual(result.Content.Name, champion.Name);
-        }
+        // [TestMethod]
+        // public void PostChampionTest()
+        // {
+        //     var controller = new LeagueController(new UnitOfWork(new BruceFoxContext()));
+        //     var champion = new Champion();
+        //     champion.Name = "Leona";
+        //     champion.Difficulty = 1;
+        //     champion.Class = "Tank";
+        //     System.Diagnostics.Debug.WriteLine(champion.Name);
+        //     var result = controller.PostChamion(champion) as OkNegotiatedContentResult<Champion>;
+        //     Assert.IsNotNull(result);
+        //     Assert.AreEqual(result.Content.Name, champion.Name);
+        // }
 
-        [TestMethod]
-        public void PutChampionTest()
-        {
-            //var controller = new LeagueController(new UnitOfWork(new BruceFoxContext()));
-            //var champion = new Champion();
-            //champion.ID = 2;
-            //champion.Name = "Morgana";
-            //champion.Difficulty = 2;
-            //champion.Class = "Tank";
-            //System.Diagnostics.Debug.WriteLine(champion.Name);
-            //var result = controller.PutChampion(champion) as StatusCodeResult;
-            //Assert.IsNotNull(result);
-            //Assert.AreEqual(result.StatusCode, HttpStatusCode.NoContent);
-        }
+        // [TestMethod]
+        // public void PutChampionTest()
+        // {
+        //     //var controller = new LeagueController(new UnitOfWork(new BruceFoxContext()));
+        //     //var champion = new Champion();
+        //     //champion.ID = 2;
+        //     //champion.Name = "Morgana";
+        //     //champion.Difficulty = 2;
+        //     //champion.Class = "Tank";
+        //     //System.Diagnostics.Debug.WriteLine(champion.Name);
+        //     //var result = controller.PutChampion(champion) as StatusCodeResult;
+        //     //Assert.IsNotNull(result);
+        //     //Assert.AreEqual(result.StatusCode, HttpStatusCode.NoContent);
+        // }
     }
 }
