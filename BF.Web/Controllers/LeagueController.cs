@@ -44,15 +44,6 @@ namespace BF.Web.Controllers
                 return BadRequest(ModelState);
             }
 
-            //try
-            //{
-
-            //}
-            //catch(DbUpdateException)
-            //{
-            //    throw;
-            //}
-
             unitOfWork.ChampionRepository.Update(champion);
             unitOfWork.Save();
 

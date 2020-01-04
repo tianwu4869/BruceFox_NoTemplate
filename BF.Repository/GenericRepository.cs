@@ -12,32 +12,30 @@ namespace BF.Repository
     public class GenericRepository<Entity> : IGenericRepository<Entity> where Entity : class
     {
         private BruceFoxContext Context;
-        private DbSet<Entity> DbSet;
 
         public GenericRepository(BruceFoxContext bruceFoxContext)
         {
             Context = bruceFoxContext;
-            DbSet = Context.Set<Entity>();
         }
 
         public Entity GetById(int id)
         {
-            return DbSet.Find(id);
+            return Context.Set<Entity>().Find(id);
         }
 
         public List<Entity> GetAll()
         {
-            return DbSet.ToList();
+            return Context.Set<Entity>().ToList();
         }
 
         public void Insert(Entity entity)
         {
-            DbSet.Add(entity);
+            Context.Set<Entity>().Add(entity);
         }
 
         public void Delete(int id)
         {
-            DbSet.Remove(DbSet.Find(id));
+            Context.Set<Entity>().Remove(Context.Set<Entity>().Find(id));
         }
 
         public void Update(Entity entity)
