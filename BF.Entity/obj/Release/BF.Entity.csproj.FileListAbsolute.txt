@@ -1,0 +1,16 @@
+C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Entity\bin\Release\BF.Entity.dll.config
+C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Entity\bin\Release\BF.Entity.dll
+C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Entity\bin\Release\BF.Entity.pdb
+C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Entity\bin\Release\EntityFramework.dll
+C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Entity\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Entity\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Entity\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Entity\bin\Release\EntityFramework.xml
+C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Entity\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Entity\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Entity\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Entity\obj\Release\BF.Entity.csprojAssemblyReference.cache
+C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Entity\obj\Release\BF.Entity.csproj.CoreCompileInputs.cache
+C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Entity\obj\Release\BF.Entity.csproj.CopyComplete
+C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Entity\obj\Release\BF.Entity.dll
+C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Entity\obj\Release\BF.Entity.pdb

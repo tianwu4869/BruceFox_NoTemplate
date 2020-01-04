@@ -9,8 +9,8 @@ C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Entity\bin\Debug\EntityFramework.x
 C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Entity\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Entity\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Entity\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Entity\obj\Debug\BF.Entity.csprojAssemblyReference.cache
 C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Entity\obj\Debug\BF.Entity.csproj.CoreCompileInputs.cache
 C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Entity\obj\Debug\BF.Entity.csproj.CopyComplete
 C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Entity\obj\Debug\BF.Entity.dll
 C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Entity\obj\Debug\BF.Entity.pdb
-C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Entity\obj\Debug\BF.Entity.csprojAssemblyReference.cache
