@@ -11,7 +11,7 @@ namespace BF.Test
     [TestClass]
     public class ControllerTest
     {
-        private static IUnitOfWork unitOfWork;
+        private static LeagueController controller;
 
         #region Additional test attributes
         //
@@ -21,7 +21,7 @@ namespace BF.Test
         [ClassInitialize()]
         public static void MyClassInitialize(TestContext testContext)
         {
-            unitOfWork = new UnitOfWork(new BruceFoxContext());
+            controller = new LeagueController(new UnitOfWork(new BruceFoxContext()));
         }
 
         // Use ClassCleanup to run code after all tests in a class have run
@@ -44,11 +44,9 @@ namespace BF.Test
         [TestMethod]
         public void GetChampionTest()
         {
-            var controller = new LeagueController(unitOfWork);
-            
             var result = controller.GetChampion(1) as OkNegotiatedContentResult<Champion>;
             Assert.IsNotNull(result);
-            Assert.AreEqual(result.Content.Name, "Nautilus");
+            Assert.AreEqual(result.Content.Name, "Ilaoi");
         }
 
         //[TestMethod]
@@ -67,7 +65,6 @@ namespace BF.Test
         [TestMethod]
         public void PutChampionTest()
         {
-            var controller = new LeagueController(unitOfWork);
             var champion = new Champion();
             champion.ID = 2;
             champion.Name = "Morgana";
