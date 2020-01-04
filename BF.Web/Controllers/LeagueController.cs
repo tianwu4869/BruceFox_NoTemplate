@@ -22,8 +22,17 @@ namespace BF.Web.Controllers
             unitOfWork = _unitOfWork;
         }
 
+        [Route("api/GetChampion")]
+        public IHttpActionResult GetChampion(int id)
+        {
+            var champion = unitOfWork.ChampionRepository.GetById(id);
+            unitOfWork.Save();
+        
+            return Ok(champion);
+        }
+
         [Route("api/PostChampion")]
-        public IHttpActionResult PostChamion(Champion champion)
+        public IHttpActionResult PostChampion(Champion champion)
         {
             if (!ModelState.IsValid)
             {
