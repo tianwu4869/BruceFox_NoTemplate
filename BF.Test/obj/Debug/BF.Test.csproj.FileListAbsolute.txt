@@ -1,4 +1,7 @@
 C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Test\bin\Debug\ApplicationInsights.config
+C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
 C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Test\bin\Debug\BF.Test.dll.config
 C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Test\bin\Debug\BF.Test.dll
 C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Test\bin\Debug\BF.Test.pdb
@@ -87,6 +90,3 @@ C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Test\obj\Debug\BF.Test.csproj.Core
 C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Test\obj\Debug\BF.Test.csproj.CopyComplete
 C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Test\obj\Debug\BF.Test.dll
 C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Test\obj\Debug\BF.Test.pdb
-C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
-C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
-C:\Users\wutian\Desktop\BruceFoxNoTemplate\BF.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
