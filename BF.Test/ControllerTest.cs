@@ -46,7 +46,6 @@ namespace BF.Test
         //    champion.Name = "Illaoi";
         //    champion.Difficulty = 1;
         //    champion.Class = "Fighter";
-        //    System.Diagnostics.Debug.WriteLine(champion.Name);
         //    var result = controller.PostChamion(champion) as OkNegotiatedContentResult<Champion>;
         //    Assert.IsNotNull(result);
         //    Assert.AreEqual(result.Content.Name, champion.Name);
@@ -61,7 +60,6 @@ namespace BF.Test
             champion.Name = "Morgana";
             champion.Difficulty = 2;
             champion.Class = "Tank";
-            System.Diagnostics.Debug.WriteLine(champion.Name);
             var result = controller.PutChampion(champion) as StatusCodeResult;
             Assert.IsNotNull(result);
             Assert.AreEqual(result.StatusCode, HttpStatusCode.NoContent);
