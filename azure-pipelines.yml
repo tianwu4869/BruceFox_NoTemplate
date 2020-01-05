@@ -28,12 +28,12 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- task: PublishBuildArtifacts@2
-  inputs:
-    pathtoPublish: '$(Build.ArtifactStagingDirectory)' 
-    artifactName: 'drop' 
+# - task: PublishBuildArtifacts@2
+#   inputs:
+#     pathtoPublish: '$(Build.ArtifactStagingDirectory)' 
+#     artifactName: 'drop' 
 
-- task: VSTest@3
+- task: VSTest@2
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
