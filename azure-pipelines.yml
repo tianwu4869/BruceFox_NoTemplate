@@ -28,14 +28,10 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-# - task: PublishBuildArtifacts@2
-#   inputs:
-#     pathtoPublish: '$(Build.ArtifactStagingDirectory)' 
-#     artifactName: 'drop'
-- task: PublishPipelineArtifact@1
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: drop'
   inputs:
-    path: $(System.DefaultWorkingDirectory)/bin/WebApp
-    artifact: WebApp
+    PathtoPublish: '$(build.artifactstagingdirectory)'
 
 - task: VSTest@2
   inputs:
